@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background:url(https://ychef.files.bbci.co.uk/976x549/p03kmrh2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    background: rgb(205, 175, 175);
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.2em;
+    color: #241e1e;
+}
+
+main {
+    padding: 50px;
+}
+
+.about {
+    display: flex;
+    margin-bottom: 30px;
+  }
+
+  .about p {
+    flex: 1; 
+    line-height: 1.5;
+    text-align: center;
+  }
+
+.call-to-action {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.call-to-action h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.call-to-action a {
+    background-color: #e07d9c;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/*index page styles*/
+
+body, ul {
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ffd700; 
+}
+
+main {
+    padding: 90px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 250px;
+   
+}
+
+/*styles for bookings*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 50px;
+}
+
+.booking {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.booking h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.booking p {
+    line-height: 1.5;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #e07d9c;
+    color: #fff;
+    padding: 15px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #d66a87;
+}
