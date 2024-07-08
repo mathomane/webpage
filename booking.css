@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 * {
     margin: 0;
@@ -27,12 +27,6 @@ header {
     z-index: 99;
 }
 
-.logo {
-    font-size: 2em;
-    color: #ffffff;
-    user-select: none;
-    padding-left: 10%;
-}
 .navigation a {
     position: relative;
     font-size: 1.1em;
@@ -81,54 +75,56 @@ header {
     color: #162938;
 }
 
-.wrapper {
-    position: relative;
-    width: 400px;
-    height: 440px;
-    background: transparent;
-    border: 2px solid rgba(255, 255, 255, .5);
-    border-radius: 20px;
-    backdrop-filter: blur(20px);
-    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    transform: scale(0);
-    transition: transform .5s ease, height .2s ease;
-}
-
-.wrapper.active-popup {
-    transform: scale(1);
-}
-
-.wrapper.active {
-    height: 520px;
-}
-
 main {
     padding: 50px;
 }
 
+.booking {
+    text-align: center;
+    margin-bottom: 50px;
+}
 
-.call-to-action h2 {
-    font-size: 1.8em;
+.booking h2 {
+    font-size: 2em;
     margin-bottom: 20px;
 }
 
-.call-to-action a {
-    background-color: #e07d9c;
-    color: #fff;
-    padding: 15px 30px;
-    border-radius: 5px;
-    text-decoration: none;
+.booking p {
+    line-height: 1.5;
 }
 
-/*index page styles*/
+form {
+    width: 300px;
+    margin: 0 auto;
+}
 
-/*styles for bookings*/
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #e07d9c;
+    color: #fff;
+    padding: 15px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #d66a87;
 }
